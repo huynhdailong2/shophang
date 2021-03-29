@@ -1,22 +1,22 @@
 {
-  name: "huynhdailong/shophang",
-  description: "Create text huynh dai long",
-  keywords: [
+  "name": "huynhdailong/shophang",
+  "description": "Create text huynh dai long",
+  "keywords": [
   ],
-  authors: [
+  "authors": [
     {
-      name: "webhang",
-      email: "xxyoutobexxok@gmail.com",
-      homepage: "http://shophang.dailong.3tc.vn"
+      "name": "webhang",
+      "email": "xxyoutobexxok@gmail.com",
+      "homepage": "http://shophang.dailong.3tc.vn"
     }
   ],
-  license: "MIT",
-  require: {
+  "license": "MIT",
+  "require": {
   },
-  autoload: {
-    psr-4: {
-      Tailieuweb\\Backend\\: "/"
+  "autoload": {
+    "psr-4": {
+      "huynhdailong\\shophang\\": "/"
     }
   },
-  minimum-stability: "dev"
+  "minimum-stability": "dev"  
 }
